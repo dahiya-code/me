@@ -7,7 +7,6 @@ html {
 p, h1, h2, h3, a, ul{
     margin: 0;
     padding: 0;
-    text-decoration: none;
 }
 .inria{
     font-family: 'Inria Serif', serif;
@@ -21,7 +20,7 @@ body{
     background-color: #ffffff;
     color:#000000;
 }
-footer, nav{
+footer{
     background-color: #474747;
     color: #ffffff;
 }
@@ -51,6 +50,7 @@ nav{
     display: flex;
     justify-content: space-between;
     padding-bottom: 15px;
+    border-bottom: 2px solid black;
 }
 nav ul{
     display: flex;
@@ -68,7 +68,8 @@ nav h1, nav p{
 nav p, nav a{
     font-size: 1rem;
     font-weight: 300;
-    color: #ffffff;
+    text-decoration: none;
+    color: #000000;
 }
 .headings{
     margin-top: 20px;
@@ -76,8 +77,6 @@ nav p, nav a{
     font-size: 3em;
 }
 .card{
-    background-color: #afafaf;
-    border-radius: 10px;
     margin: 15px;
     padding: 15px;
 }
@@ -111,4 +110,33 @@ button {
     font-size: 20px;  
     border: none;
     padding: 10px;
+}
+.sub-heading{
+    margin-top: 20px;
+    font-size: 2em;
+}
+.skills img{
+    margin-top: 20px;
+    height: 48px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor:help;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
 }
