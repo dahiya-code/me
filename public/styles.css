@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
-*{
-    color:#ECB365;
+html {
+    position: relative;
+    min-height: 100%;
 }
 p, h1, h2, h3, a, ul{
     margin: 0;
@@ -17,28 +18,32 @@ p, h1, h2, h3, a, ul{
 body{
     margin: auto;
     height:100%;
-    background-color: #041C32;
+    background-color: #ffffff;
+    color:#000000;
 }
 footer, nav{
-    background-color: #04293A;
+    background-color: #474747;
+    color: #ffffff;
 }
 footer{
-    position:absolute;
-    bottom:0;
-    width:100vw;
-    padding: 15px 0;
     font-size: 15px;
+    margin-bottom: auto;
+    overflow: auto;
+	width: 100%;
+    padding: 5px 0;
 }
 footer a{
-    margin: auto 5px;
-}
-.left{
-    padding-left: 15px;
-    float: left;
-}
-.right{
+    margin: auto;
+    color: #ffffff;
     padding-right: 15px;
-    float: right;
+}
+.copyright {
+    float:left;
+    text-align: left;
+}
+.social {
+    float:right;
+    text-align: right;
 }
 nav{
     display: flex;
@@ -61,6 +66,7 @@ nav h1, nav p{
 nav p, nav a{
     font-size: 1rem;
     font-weight: 300;
+    color: #ffffff;
 }
 .headings{
     margin-top: 20px;
@@ -68,7 +74,7 @@ nav p, nav a{
     font-size: 3em;
 }
 .card{
-    background-color: #04293A;
+    background-color: #afafaf;
     border-radius: 15px;
     margin: 15px;
     padding: 15px;
