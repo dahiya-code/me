@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+*{
+    color:#ECB365;
+}
+p, h1, h2, h3, a, ul{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.inria{
+    font-family: 'Inria Serif', serif;
+}
+.istok{
+    font-family: 'Istok Web', sans-serif;
+}
+body{
+    margin: auto;
+    height:100%;
+    background-color: #041C32;
+}
+footer, nav{
+    background-color: #04293A;
+}
+footer{
+    position:absolute;
+    bottom:0;
+    width:100vw;
+    padding: 15px 0;
+    font-size: 15px;
+}
+footer a{
+    margin: auto 5px;
+}
+.left{
+    padding-left: 15px;
+    float: left;
+}
+.right{
+    padding-right: 15px;
+    float: right;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+nav li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+nav h1, nav p{
+    margin-left: 20px;
+    font-size: 3em;
+}
+nav p, nav a{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.headings{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 3em;
+}
+.card{
+    background-color: #04293A;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+}
