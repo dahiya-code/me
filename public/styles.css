@@ -119,6 +119,7 @@ button {
 .skills img{
     margin-top: 20px;
     height: 48px;
+    margin-right: 16px;
 }
 .tooltip {
     position: relative;
