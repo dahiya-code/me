@@ -27,6 +27,7 @@ footer, nav{
 }
 footer{
     font-size: 15px;
+    margin-top: 20px;
     margin-bottom: auto;
     overflow: auto;
 	width: 100%;
@@ -38,6 +39,7 @@ footer a{
     padding-right: 15px;
 }
 .copyright {
+    padding-left: 15px;
     float:left;
     text-align: left;
 }
@@ -75,7 +77,38 @@ nav p, nav a{
 }
 .card{
     background-color: #afafaf;
-    border-radius: 15px;
+    border-radius: 10px;
     margin: 15px;
     padding: 15px;
+}
+form{
+    max-width: 70vw;
+    min-width: 400px;
+    margin: 0 auto;
+}
+input,
+textarea{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+label{
+    display: block;
+    margin-top: 24px;
+}
+textarea{
+    height: 80px;
+}
+.submit {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}  
+button {  
+    background-color: #000000;  
+    color: white;  
+    font-size: 20px;  
+    border: none;
+    padding: 10px;
 }
