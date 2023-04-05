@@ -1,3 +1,22 @@
 <div id="projects">
     <div class="headings inria">Projects</div>
+    <div class="istok wrapper card">
+        <% if (projects.length>0) { %>
+            <% projects.forEach(project => { %>
+                <div class="project">
+                    <div class="github">
+                        <a href="<%= project.github %>">
+                            <div class="sub-heading inria title"><%= project.title %></div>
+                        </a>
+                    </div>
+                    <div class="project-content">
+                        <a href="<%= project.github %>">
+                            <img class="project-img" src="<%= project.image %>" alt="<%= project.title %>" loading="lazy">
+                        </a>
+                        <div class="about"><%= project.about %></div>
+                    </div>
+                </div>
+            <% })%>
+        <% } %>
+    </div>
 </div>

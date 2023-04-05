@@ -8,23 +8,37 @@ p, h1, h2, h3, a, ul{
     margin: 0;
     padding: 0;
 }
+
 .inria{
     font-family: 'Inria Serif', serif;
 }
 .istok{
     font-family: 'Istok Web', sans-serif;
 }
+
 body{
     margin: auto;
     height:100%;
     background-color: #ffffff;
     color:#000000;
 }
+.headings{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 3em;
+}
+.card{
+    margin: 15px;
+    padding: 15px;
+}
+.sub-heading{
+    margin-top: 20px;
+    font-size: 2em;
+}
+
 footer{
     background-color: #474747;
     color: #ffffff;
-}
-footer{
     font-size: 15px;
     margin-top: 20px;
     margin-bottom: auto;
@@ -47,6 +61,7 @@ footer a{
     float:right;
     text-align: right;
 }
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -72,15 +87,7 @@ nav p, nav a{
     text-decoration: none;
     color: #000000;
 }
-.headings{
-    margin-top: 20px;
-    text-align: center;
-    font-size: 3em;
-}
-.card{
-    margin: 15px;
-    padding: 15px;
-}
+
 form{
     max-width: 70vw;
     min-width: 400px;
@@ -112,10 +119,7 @@ button {
     border: none;
     padding: 10px;
 }
-.sub-heading{
-    margin-top: 20px;
-    font-size: 2em;
-}
+
 .skills img{
     margin-top: 20px;
     height: 48px;
@@ -126,7 +130,6 @@ button {
     display: inline-block;
     cursor:help;
 }
-
 .tooltip .tooltip-text {
     visibility: hidden;
     width: 120px;
@@ -138,7 +141,30 @@ button {
     position: absolute;
     z-index: 1;
 }
-
 .tooltip:hover .tooltip-text {
     visibility: visible;
+}
+
+.wrapper, .project-content{
+    position: relative;
+}
+.title{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.github a{
+    text-decoration: none;
+    color: #000000;
+}
+.project-img, .about{
+    display: inline-block;
+    width: 50%;
+}
+.about{
+    position: absolute;
+    top: 30%;
+    margin-left: 15px;
+}
+.project{
+    border-bottom: 2px solid rgb(110, 110, 110);
 }
